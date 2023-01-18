@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#top-bar{
+    width: 100%;
+    height: auto;
+    background-color:#003366;
+    font-size: 20px;
+}
+#top-bar .centralizador{
+    width: 1050px;
+    height: 63px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+.lista ul{
+    height: 63px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.lista ul li{
+    display:inline-flex;
+    margin-right: 120px;
+    color: #fff;
+    align-items: center;
+}
+.lista ul li i{
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+.lista ul li p.top-p{
+    font-size: 0.8em;
+    margin-top: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button button.op-1,.op-2{
+    padding: 12px 15px 12px 15px;
+    margin: 0 10px 0 0;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+}
+.button button.op-1,.op-2:hover{
+    cursor: pointer;
+}
+button i{
+    font-size:20px;
+}
+.button .op-1{
+    background-color: #2ba531;
+    font-size: 15px;
+    font-weight: 500;
+}
+.button .op-1:hover{
+    background-color: #2e9b33;
+}
+.button .op-2{
+    background-color: #00b29c;
+    font-size: 15px;
+    font-weight: 500;
+}
+.button .op-2:hover{
+    background-color:#02a08d;
+}
+
+/* FIM DO TOPO */
+
+section.color{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    /* box-shadow: 3px 2px 15px #ccc; */
+}
+section.color section.central{
+    width: 1050px;
+    height: 110px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.color section.central .logo{
+    padding: 18px 0;
+}
+section.central .menu ul.menuzinho li{
+    display: inline;
+    margin: 0 20px 0 25px;
+}
+section.central .menu ul.menuzinho li a{
+    font-family:  'Myriad Pro';
+    color: rgb(20, 20, 20);
+    font-weight: 550;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+section.central .menu ul.menuzinho li a:hover{
+    color: #72120B;
+}
+
+/* FIM DO MENU E LOGO */
+
+.banner{
+    width: 100%;
+    height: 345px;
+    background-image: url(../imagens/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* FIM DO BANNER  */
+
+section.content{
+    width: 100%;;
+}
+section.content .centro{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;  
+    padding: 60px 0;
+    box-sizing: border-box;
+}
+section.content .centro .info h2.title{
+    font-family: 'calibri';
+    color: #72120B;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.9em;
+    
+}
+section.content .centro .info h2.title spam{
+    color: #003366;
+}
+section.content .centro .info hr{
+    width: 90px;
+    color: #72120B;
+    margin: 20px 0 20px 0;
+    border: 2px solid #72120B;
+}
+section.content .centro .info p{
+    width: 90%;
+    font-size: 1.2em;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(131, 131, 131);
+    margin: 0 0 20px 0;
+}
+section.content .centro .info button{
+    background-color: #72120B;
+    border-radius: 7px;
+    padding: 19px 40px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1em;
+    cursor: pointer;
+}
+section.content .centro .info button:hover{
+    background-color: #003366;
+}
+section.content .centro .imagem img{
+    border-radius: 10px;
+    box-shadow: 9px 12px 12px #ccc;
+}
+
+/* FIM DO CONTEUDO FUNDO BRANCO  */
+
+section.produtos{
+    width: 100%;
+    background-color: #003366;
+    box-sizing: border-box;
+    padding: 40px 0;
+}
+section.produtos .centro{
+    width: 1050px;
+    margin: 0 auto;
+}
+section.produtos .centro .cards{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+section.produtos .centro .cards .card-one{
+    width: 300px;
+    height: auto;
+    border: 2px solid #044280;
+    padding: 19px 3px;
+    border-radius: 20px;    
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+section.produtos .centro .cards .card-one:hover{
+    background-color: #01386e;
+    border-color: #044280;
+}
+section.produtos .centro .cards .card-one img{
+    border-radius: 3px;
+}
+section.produtos .centro .cards .card-one img,h2,p{
+    margin-bottom: 40px;
+}
+section.produtos .centro .cards .card-one h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+section.produtos .centro .cards .card-one p{
+    line-height: 29px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+section.produtos .centro .cards .card-one button{
+    padding: 20px 50px;
+    color: #fff;
+    background-color: #72120B;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+section.produtos .centro .cards .card-one button:hover{
+    background-color: #830c03;
+}
+
+/* FIM DOS CARDS  */
+
+section.contato{
+    width: 100%;
+    padding: 40px 0;
+}
+section.contato .control hr{
+    width: 920px;
+    color: #72120B;
+    border: 3px solid #72120B;
+    margin: 0 auto;
+}
+section.contato .control{
+    width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+}
+section.contato .control .titulo h2{
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'calibri';
+    color: #72120B;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.9em;
+}
+section.contato .control .titulo h2 spam{
+    color: #003366;
+}
+section.contato .control .formulario form.form{
+    margin: 0 auto;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+section.contato .control .formulario form.form input{
+    margin: 0 0 15px 0;
+    padding: 20px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+   
+}
+section.contato .control .formulario form.form input::placeholder{
+    color: rgb(170, 170, 170);
+}
