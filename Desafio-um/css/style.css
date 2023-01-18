@@ -245,7 +245,7 @@ section.contato .control hr{
     border: 3px solid #72120B;
     margin: 0 auto;
 }
-section.contato .control{
+section.contato .control, footer .control{
     width: 1050px;
     margin: 0 auto;
     text-align: center;
@@ -309,9 +309,12 @@ section.contato .control .formulario form.form button:hover{
 
 section.maps{
     width: 100%;
-    padding: 0 0 40px 0;
+    padding: 0 0 20px 0;
 }
-
 
 /* FIM DO MAPS */
 
+footer{
+    width: 100%;
+    background-color: #003366;
+}
