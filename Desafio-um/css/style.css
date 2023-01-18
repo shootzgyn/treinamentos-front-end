@@ -309,7 +309,9 @@ section.contato .control .formulario form.form button:hover{
 
 section.maps{
     width: 100%;
+    padding: 0 0 40px 0;
 }
+
 
 /* FIM DO MAPS */
 
