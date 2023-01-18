@@ -245,7 +245,7 @@ section.contato .control hr{
     border: 3px solid #72120B;
     margin: 0 auto;
 }
-section.contato .control, footer .control{
+section.contato .control{
     width: 1050px;
     margin: 0 auto;
     text-align: center;
@@ -316,5 +316,57 @@ section.maps{
 
 footer{
     width: 100%;
+    height: auto;
     background-color: #003366;
+    padding: 30px 0;
+}
+footer .control{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 15px 0;
+    box-sizing: border-box;
+}
+footer .control .cont-logo h2 img{
+    margin-top: 46px;
+    width: 220px;
+}
+footer .control .cont-contato{
+    display: flex;
+    align-items: center;
+}
+footer .control .cont-contato h3{
+    border-right: 2px solid #fff ;
+    line-height: 80px;
+    padding: 0 20px 0 0;
+    margin: 0 20px 0 0;
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 1.3em;
+}
+footer .control .cont-contato ul.itens-cont{
+    color: #fff;
+    line-height: 40px;
+    font-family: 'Calibri';
+    font-size: 1.1em;
+}
+footer .control .cont-contato ul.itens-cont li{
+    align-items: center;
+    display:flex;
+}
+footer .control .cont-contato ul.itens-cont li i{
+    padding: 0 10px 0 0;
+    font-size: 1.2em;
+}
+footer .control .button{
+    display: flex;
+    flex-direction: column;
+}
+footer .control .button button{
+    margin: 0 0 10px 0;
+}
+footer .control .button button i{
+    margin: 0 5px 0 0;
 }
