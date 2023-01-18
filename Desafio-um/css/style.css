@@ -301,3 +301,15 @@ section.contato .control .formulario form.form button{
     border-radius: 4px;
     cursor: pointer;
 }
+section.contato .control .formulario form.form button:hover{
+    background-color: #003366;
+}
+
+/* FIM DO FORMULÁRIO  */
+
+section.maps{
+    width: 100%;
+}
+
+/* FIM DO MAPS */
+
