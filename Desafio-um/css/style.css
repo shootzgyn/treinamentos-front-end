@@ -276,6 +276,28 @@ section.contato .control .formulario form.form input{
     border-radius: 8px;
    
 }
+section.contato .control .formulario form.form textarea{
+    margin: 0 0 15px 0;
+    padding: 20px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+}
 section.contato .control .formulario form.form input::placeholder{
-    color: rgb(170, 170, 170);
+    color: rgb(138, 137, 137);
+    font-size: 1.2em;
+}
+section.contato .control .formulario form.form textarea::placeholder{
+    color: rgb(138, 137, 137);
+    font-size: 1.3em;
+    font-family: 'Calibri';
+}
+section.contato .control .formulario form.form button{
+    padding: 18px 0;
+    background-color: #72120B;
+    font-size: 1.1em;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
