@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    list-style-type: none;
 }
 #top-bar{
     width: 100%;
@@ -16,11 +17,9 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    
 }
 .lista ul{
     height: 63px;
-    list-style-type: none;
     display: flex;
     align-items: center;
     box-sizing: border-box;
