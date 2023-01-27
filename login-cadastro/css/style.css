@@ -119,16 +119,30 @@ main section.content .square-right p{
 main section.content .square-right form.authentication{
     display: flex;
     flex-direction: column;
-    
+}
+main section.content .square-right form.authentication .nome,.email,.password{
+    display: flex;
+    align-items: center;
 }
 main section.content .square-right form.authentication input{
-    padding: 10px;
+    padding: 15px 40px;
     position: relative;
     z-index: 1;
+    background-color: #ecf0f1;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    width: 270px;
 }
 main section.content .square-right form.authentication i{
     z-index: 2;
     position: absolute;
+    margin: -12px 0 0 15px;
+    color: #9ea7a2;
+}
+main section.content .square-right form.authentication input::placeholder{
+
+    padding-left: -150px;
 }
 /* Fim da parte direita  */
 
