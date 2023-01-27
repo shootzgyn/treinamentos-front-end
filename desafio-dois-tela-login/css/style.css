@@ -14,8 +14,10 @@ main{
     align-items: center;
     /* background-color: #242424; */
 }
+
+/* inicio  da div content e H1  */
 main section.content{
-    width: 430px;
+    width: 390px;
     height: auto;
     background-color: rgb(14, 14, 14);
     text-align: center;
@@ -27,21 +29,29 @@ main section.content{
 main section.content .center h1{ 
     font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
     font-weight: 500;
-    font-size: 1.3em ;
+    font-size: 1.2em ;
     color: #fff;
     margin: 0 0 35px 0;
 }
+
+/* Fim da div content e H1  */
+
+
+
+/* inicio das redes sociais */
+
 main section.content .center ul.lista{
     margin: 0 0 25px 0;
 }
 main section.content .center ul.lista li{
     display: inline;
-    padding: 10px;
+    padding: 12px;
     border-radius: 100%;
     background-color: #fff;
     margin-right: 5px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 main section.content .center ul.lista li a{
     color: #fff;
@@ -49,10 +59,50 @@ main section.content .center ul.lista li a{
 main section.content .center ul.lista li a i{
     width: 20px;
     height: 20px;
+    font-size: 17px;
 }
 main section.content .center ul.lista li.fb{
     background-color: #3b5998 ;
 }
 main section.content .center ul.lista li.tw{
     background-color: #00acee;
+}
+main section.content .center ul.lista li.in{
+    background-color: #0e76a8;
+}
+main section.content .center ul.lista li.go{
+    background-color: #db4a39;
+}
+main section.content .center ul.lista li.ios{
+    background-color: #0e0e0e;
+    border: 1px solid rgb(53, 53, 53);
+}
+
+/* Fim das redes sociais */
+
+/* Inicio da tag p */
+
+main section.content .center p{
+    color: rgb(100, 100, 100) ;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 0 20px 0;
+}
+
+/* Fim da tag p */
+
+/* inicio do formulário  */
+
+main section.content form.login{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+main section.content form.login label{
+    display: flex;
+    color: rgb(233, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin-bottom: 6px;
 }
