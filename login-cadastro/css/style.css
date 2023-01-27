@@ -68,3 +68,67 @@ main section.content .square-left button:hover{
     color: #58af9c;
 }
 /* fim da section content  */
+
+
+
+/* Inicio da parte direita  */
+
+main section.content .square-right{
+    width: 60%;
+    height: 100%;
+    background-color: #FFF;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main section.content .square-right .title-account{
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #58af9c;
+}
+main section.content .square-right ul.list{
+    margin: 25px 0;
+}
+main section.content .square-right ul.list li{
+    display: inline;
+    padding: 9px;
+    margin-right: 8px;
+    border-radius: 100%;
+    border: 1px solid #9ea7a2;
+    cursor: pointer;
+}
+main section.content .square-right ul.list li a{
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: #9ea7a2;
+}
+main section.content .square-right ul.list li a i{
+    width: 20px;
+    height: 20px;
+}
+main section.content .square-right p{
+    color: #9ea7a2;
+    font-weight: 300;
+    margin: 0 0 15px 0;
+}
+main section.content .square-right form.authentication{
+    display: flex;
+    flex-direction: column;
+    
+}
+main section.content .square-right form.authentication input{
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+main section.content .square-right form.authentication i{
+    z-index: 2;
+    position: absolute;
+}
+/* Fim da parte direita  */
+
