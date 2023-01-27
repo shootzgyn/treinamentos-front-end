@@ -15,7 +15,8 @@ Foco 2023 é finalizar o curso desenvolvimento web fullstack, colocar em prátic
 
 1. 🛠️ Desafios 
   - Criando um CV    
-  - Pagina de captura          
+  - Página de captura
+  - Criando Tela de Login Básica
  
 
 2. 🛠️ Desafios entre Equipe
