@@ -12,7 +12,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #242424; */
+    background-color: #242424;
 }
 
 /* inicio  da div content e H1  */
@@ -25,6 +25,9 @@ main section.content{
     box-sizing: border-box;
     font-size: 16px;
     padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main section.content .center h1{ 
     font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
@@ -80,6 +83,8 @@ main section.content .center ul.lista li.ios{
 
 /* Fim das redes sociais */
 
+
+
 /* Inicio da tag p */
 
 main section.content .center p{
@@ -90,6 +95,8 @@ main section.content .center p{
 }
 
 /* Fim da tag p */
+
+
 
 /* inicio do formulário  */
 
@@ -104,7 +111,7 @@ main section.content form.login label{
     color: rgb(233, 233, 233);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
-    margin: 9px 0 6px 0;
+    margin: 9px 0 6px 5px;
 }
 main section.content form.login input{
     border-radius: 15px;
@@ -124,3 +131,19 @@ main section.content form.login button{
     color: rgb(206, 206, 206);
     cursor: pointer;
 }
+
+/* fim do form  */
+
+
+/* inicio option rodape  */
+
+main section.content .center .option{
+    display: flex;
+    justify-content: space-around;
+}
+main section.content .center .option .create p a{
+    font-size: 0.9em;
+    color: #3c5891;
+}
+
+/* Fim option rodape  */
