@@ -86,7 +86,7 @@ main section.content .center p{
     color: rgb(100, 100, 100) ;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 25px 0 20px 0;
+    margin: 25px 0 10px 0;
 }
 
 /* Fim da tag p */
@@ -103,6 +103,24 @@ main section.content form.login label{
     display: flex;
     color: rgb(233, 233, 233);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
-    margin-bottom: 6px;
+    font-size: 0.8em;
+    margin: 9px 0 6px 0;
+}
+main section.content form.login input{
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+    background-color: #2c2c2c;
+}
+main section.content form.login input::placeholder{
+    color: #555555;
+    padding: 0 0 0 15px;
+}
+main section.content form.login button{
+    margin: 15px 0 0 0;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: #303b50;
+    color: rgb(206, 206, 206);
+    cursor: pointer;
 }
