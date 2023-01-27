@@ -134,6 +134,9 @@ main section.content .square-right form.authentication input{
     border-radius: 3px;
     width: 270px;
 }
+main section.content .square-right form.authentication input:focus,select:focus{
+    outline: 0;
+}
 main section.content .square-right form.authentication i{
     z-index: 2;
     position: absolute;
@@ -141,8 +144,21 @@ main section.content .square-right form.authentication i{
     color: #9ea7a2;
 }
 main section.content .square-right form.authentication input::placeholder{
-
-    padding-left: -150px;
+    color: #9ea7a2;
+}
+main section.content .square-right form.authentication button{
+    width: 50%;
+    padding: 11px;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: none;
+    background-color: #58af9c;
+    color: #ecf0f1;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 15px;
 }
 /* Fim da parte direita  */
 
