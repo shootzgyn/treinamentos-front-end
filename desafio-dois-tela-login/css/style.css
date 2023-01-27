@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,4 +13,46 @@ main{
     justify-content: center;
     align-items: center;
     /* background-color: #242424; */
+}
+main section.content{
+    width: 430px;
+    height: auto;
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 15px 15px;
+}
+main section.content .center h1{ 
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 1.3em ;
+    color: #fff;
+    margin: 0 0 35px 0;
+}
+main section.content .center ul.lista{
+    margin: 0 0 25px 0;
+}
+main section.content .center ul.lista li{
+    display: inline;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+}
+main section.content .center ul.lista li a{
+    color: #fff;
+}
+main section.content .center ul.lista li a i{
+    width: 20px;
+    height: 20px;
+}
+main section.content .center ul.lista li.fb{
+    background-color: #3b5998 ;
+}
+main section.content .center ul.lista li.tw{
+    background-color: #00acee;
 }
