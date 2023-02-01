@@ -1,0 +1,29 @@
+/* FONTE WORK SANS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto+Mono:ital@1&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+/*----------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* INICIO NAV MENU E LOGO */
+
+nav{
+    width: 100%;
+    height: auto;
+}
+nav .limited{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .limited h1.logo{
+    
+}
+
+/* FIM NAV MENU E LOGO */
