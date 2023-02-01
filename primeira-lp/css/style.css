@@ -11,7 +11,7 @@
     text-decoration: none;
     font-family: 'Work Sans', Arial, Helvetica, sans-serif;
 }
-nav .limited h1 spam.bold{
+spam.bold{
     font-weight: 800;
 }
 
@@ -28,14 +28,17 @@ nav .limited{
     justify-content: space-between;
     padding: 45px 0 0 0;
     box-sizing: border-box;
+   
 }
 nav .limited h1.logo{
     font-size: 20px;
     font-weight: 400;
+    z-index: 998;
 }
 nav .limited ul.menu{
     margin: 0 35px 0 0;
     font-size: 14px;
+    z-index: 998;
 }
 nav .limited ul.menu li{
     display: inline;
@@ -45,6 +48,7 @@ nav .limited ul.menu li.button-menu{
     padding: 13px 18px;
     border-radius: 3px;
     background-color: #6b76ff;
+    cursor: pointer;
 }
 nav .limited ul.menu li.button-menu a{
     color: #fff;
@@ -57,3 +61,64 @@ nav .limited ul.menu li a{
 }
 
 /* FIM NAV MENU E LOGO */
+
+
+/* INICIO CONTEÚDO SITE / HEADER  */
+
+main{
+    width: 100%;
+    height: auto;
+}
+main .overlay{
+    background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+    opacity: .08;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 51%;
+    z-index: -1;
+}
+main .limited{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 0 0;
+    box-sizing: border-box;
+    /* position: relative; */
+}
+main .limited section.left h2.title{
+    font-size: 3.4em;
+    font-weight: 200;   
+    line-height: 75px;
+    margin: 0 0 30px 0;
+    color: #6b76ff;
+}
+main .limited section.left p.date{
+    font-size: 1.2em;
+    font-weight: 300;
+    color: rgb(39, 39, 39);
+    margin: 0 0 30px 0;
+}
+main .limited section.left ul.clock{
+    display: flex;
+}
+main .limited section.left ul.clock li{
+    display: inline-block;
+    border-right: 1px solid #e8e9ff;
+    padding: 30px;
+    font-weight: 200;
+}
+main .limited section.left ul.clock li h5{
+    color: #6b75ff;
+    font-weight: 200;
+    font-size: 2.4em;
+    padding: 0 0 15px 0;
+    box-sizing: border-box;
+}
+
+
+/* FIM CONTEÚDO SITE / HEADER  */
