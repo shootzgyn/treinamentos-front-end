@@ -187,7 +187,7 @@ section.about .limited .img {
   background-position: 60% 0%;
   background-repeat: no-repeat;
   width: 750px;
-  height: 762px;
+  height: 752px;
 }
 section.about .limited .information {
   display: flex;
@@ -247,3 +247,52 @@ section.about .limited .information .lists ul li p {
 }
 
 /* FIM DO ABOUT  */
+section.speakers {
+  width: 100%;
+  height: auto;
+}
+section.speakers .limited {
+  width: 1110px;
+  height: auto;
+  margin: 0 auto;
+}
+section.speakers .limited .text-speakers {
+  text-align: center;
+  padding: 130px 0 100px 0;
+}
+section.speakers .limited .text-speakers h2 {
+  font-weight: 400;
+  font-size: 2.5em;
+  color: rgba(0, 0, 0, 0.8);
+}
+section.speakers .limited .text-speakers h2 spam.subtitle {
+  font-weight: 400;
+  color: #969696;
+  font-size: 0.5em;
+  line-height: 50px;
+}
+section.speakers .limited .imgs {
+  display: flex;
+  justify-content: space-between;
+}
+section.speakers .limited .imgs .peoples img {
+  width: 340px;
+  height: auto;
+  border-bottom: 1px solid #59b7ff;
+}
+section.speakers .limited .imgs .peoples h3 {
+  margin: 20px 0 8px 0;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.8);
+}
+section.speakers .limited .imgs .peoples h3,
+p {
+  text-align: center;
+}
+section.speakers .limited .imgs .peoples p {
+  font-weight: 400;
+  color: #969696;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
