@@ -294,5 +294,71 @@ section.speakers .limited .imgs .peoples p {
   font-weight: 400;
   color: #969696;
   font-size: 1em;
-  margin-bottom: 20px;
+  margin-bottom: 130px;
+}
+
+/* FIM SPEAKERS  */
+
+section.event {
+  width: 100%;
+  height: auto;
+  background-color: #f8f9fa;
+}
+section.event .limited {
+  width: 1110px;
+  height: auto;
+  margin: 0 auto;
+}
+section.event .limited .text-event {
+  text-align: center;
+  padding: 130px 0 100px 0;
+}
+section.event .limited .text-event h2 {
+  font-weight: 400;
+  font-size: 2.5em;
+  color: rgba(0, 0, 0, 0.8);
+}
+section.event .limited .text-event h2 spam.subtitle {
+  font-weight: 400;
+  color: #969696;
+  font-size: 0.5em;
+  line-height: 50px;
+}
+section.event .limited .center-list {
+}
+section.event .limited ul.days {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+section.event .limited ul.days li.active {
+  background-color: #6b76ff;
+  color: #fff;
+}
+section.event .limited ul.days li {
+  background-color: #fff;
+  width: 278px;
+  height: 140px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.event .limited ul.days li h3 {
+  font-weight: 600;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+section.event .limited ul.days li p {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+section.event .limited ul.days li:hover {
+  background-color: #5861eb;
+  cursor: pointer;
+  color: #fff;
+}
+section.event .limited ul.days li.active:hover {
+  background-color: #6b76ff;
 }
